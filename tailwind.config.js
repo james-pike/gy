@@ -91,17 +91,17 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: "#21928c",
-          50: "#E5F6F5",
-          100: "#C3E8E5",
-          200: "#9EDBD6",
-          300: "#80D8C0", // Secondary color included here
-          400: "#4FBFB6",
-          500: "#21928C",
-          600: "#1C7A76",
-          700: "#165F5D",
-          800: "#104644",
-          900: "#0B2D2B",
+          DEFAULT: "#808080", // Neutral gray
+          50: "#F9F9F9",       // Very light gray (almost white)
+          100: "#F2F2F2",      // Light gray
+          200: "#E5E5E5",      // Slightly darker gray
+          300: "#CCCCCC",      // Medium-light gray
+          400: "#A6A6A6",      // Medium gray
+          500: "#808080",      // Neutral gray (Default)
+          600: "#666666",      // Darker gray
+          700: "#4D4D4D",      // Dark gray
+          800: "#333333",      // Very dark gray
+          900: "#1A1A1A",      // Almost black
           
         },
       },

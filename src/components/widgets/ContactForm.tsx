@@ -15,7 +15,7 @@ export default component$(() => {
                             </div>
                         </div>
                         <Headline2
-                            title={"Get in Touch"}
+                            title={"Get in Touch!"}
                             subtitle={"Reach out to learn more and for project collaborations, Bailey will be glad to hear from you!"}
                             highlight={"Contact Us"}
                         />
