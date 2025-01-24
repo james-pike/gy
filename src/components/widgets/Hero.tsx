@@ -64,7 +64,7 @@ export default component$(() => {
 
             <div class="basis-1/2 pb-10">
               <video
-                 src="/images/ghstly.mp4"
+                 src="/images/ghstly2.mp4"
              
               width={500}
               height={500}
