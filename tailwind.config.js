@@ -1,10 +1,12 @@
 import plugin from "tailwindcss/plugin";
 import defaultTheme from "tailwindcss/defaultTheme";
 import typography from "@tailwindcss/typography";
+import flowbitePlugin from 'flowbite/plugin';
+
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}", 'node_modules/flowbite-qwik/**/*.{cjs,mjs}'],
   theme: {
     extend: {
       colors: {
@@ -78,6 +80,8 @@ export default {
       animation: {
         "accordion-up": "collapsible-up 0.2s ease-out 0s 1 normal forwards",
         "accordion-down": "collapsible-down 0.2s ease-out 0s 1 normal forwards",
+        'from-left': 'slideFromLeft 0.2s 1',
+        'from-right': 'slideFromRight 0.2s 1',
       },
       keyframes: {
         "collapsible-down": {
@@ -87,6 +91,14 @@ export default {
         "collapsible-up": {
           from: { height: "var(--qwikui-collapsible-content-height)" },
           to: { height: "0" },
+        },
+        slideFromLeft: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideFromRight: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
         },
       },
       colors: {
@@ -120,6 +132,7 @@ export default {
       });
     }),
     typography,
+    flowbitePlugin,
   ],
   darkMode: "class",
 };

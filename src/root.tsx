@@ -6,6 +6,7 @@ import { DarkThemeLauncher } from "~/components/common/DarkThemeLauncher";
 
 // import "@fontsource-variable/inter";
 import styles from  "~/assets/styles/global.css?inline";
+import { FlowbiteProvider, FlowbiteProviderHeader } from "flowbite-qwik";
 
 export default component$(() => {
   /**
@@ -26,9 +27,13 @@ export default component$(() => {
         <RouterHead />
         <DarkThemeLauncher />
         <ServiceWorkerRegister />
+        <FlowbiteProviderHeader />
+
       </head>
       <body class="text-gray-900 overflow-x-hidden dark:text-slate-300 tracking-tight bg-white dark:bg-gray-900 antialiased">
-        <RouterOutlet />
+      <FlowbiteProvider toastPosition="top-right" theme="blue">
+    <RouterOutlet />
+  </FlowbiteProvider>
       </body>
     </QwikCityProvider>
   );
