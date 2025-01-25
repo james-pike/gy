@@ -6,14 +6,13 @@ import RoadmapHome from "~/components/pages/RoadmapHome";
 import StoryHome from "~/components/pages/StoryHome";
 import Contact from "~/components/pages/Contact";
 import TokenomicsHome from "~/components/pages/TokenomicsHome";
-import HeroCarousel from "~/components/widgets/HeroCarousel";
 
 export default component$(() => {
   return (
     <>
     
       <Hero />
-      <HeroCarousel/>
+    
      <StoryHome/>
      <RoadmapHome/>
      <TokenomicsHome/>

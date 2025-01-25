@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import HeroCarousel from "./HeroCarousel";
 
 
 export default component$(() => {
@@ -63,16 +64,7 @@ export default component$(() => {
             </div>
 
             <div class="basis-1/2 pb-10">
-              <video
-                 src="/images/ghstly2.mp4"
-             
-              width={500}
-              height={500}
-              class="mx-auto lg:mr-0 object-fit w-full drop-shadow-2xl rounded-md"
-             autoplay
-             loop
-             playsInline
-            />
+         <HeroCarousel/>
             </div>
           </div>
         </div>
