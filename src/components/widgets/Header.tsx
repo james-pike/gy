@@ -36,10 +36,10 @@ export default component$(() => {
       <div class="relative text-default py-2.5 px-2.5 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-          <img class="rounded-full" src="/images/GHSTLY.jpg" height={50} width={50}></img>
+          {/* <img class="rounded-full" src="/images/GHSTLY.jpg" height={50} width={50}></img> */}
           <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
   
-  GHOSTLY
+  Webdev.ca
 </span>
           </a>
           <div class="flex items-center md:hidden">
