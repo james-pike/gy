@@ -41,7 +41,7 @@ export default component$(() => {
 
                     </div>
                   </a>
-                  <a href="/images/WIENER-WHITEPAPER.pdf" download="WIENER-WHITEPAPER.pdf">
+                  {/* <a href="/images/WIENER-WHITEPAPER.pdf" download="WIENER-WHITEPAPER.pdf">
                     <div class="flex w-full">
 
                       <button class="btn w-full bg-primary-100 dark:bg-primary-500 py-2 rounded-md ">
@@ -58,7 +58,7 @@ export default component$(() => {
                       </button>
 
                     </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
