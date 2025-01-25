@@ -11,8 +11,9 @@ import HeroCarousel from "~/components/widgets/HeroCarousel";
 export default component$(() => {
   return (
     <>
-    <HeroCarousel/>
+    
       <Hero />
+      <HeroCarousel/>
      <StoryHome/>
      <RoadmapHome/>
      <TokenomicsHome/>
