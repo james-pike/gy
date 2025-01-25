@@ -103,17 +103,17 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: "#808080", // Neutral gray
-          50: "#F9F9F9",       // Very light gray (almost white)
-          100: "#F2F2F2",      // Light gray
-          200: "#E5E5E5",      // Slightly darker gray
-          300: "#CCCCCC",      // Medium-light gray
-          400: "#A6A6A6",      // Medium gray
-          500: "#808080",      // Neutral gray (Default)
-          600: "#666666",      // Darker gray
-          700: "#4D4D4D",      // Dark gray
-          800: "#333333",      // Very dark gray
-          900: "#1A1A1A",      // Almost black
+          DEFAULT: "#0077CC", // Neutral blue
+          50: "#F2F8FD",       // Very light blue (almost white)
+          100: "#E6F0FB",      // Light blue
+          200: "#CCE1F7",      // Soft, light blue
+          300: "#99C4EF",      // Medium-light blue
+          400: "#66A7E7",      // Moderate blue
+          500: "#0077CC",      // Neutral blue (Default)
+          600: "#005FA3",      // Darker blue
+          700: "#00497A",      // Deep blue
+          800: "#003451",      // Very deep blue
+          900: "#001D33",      // Near-black blue     // Almost black
           
         },
       },
