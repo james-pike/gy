@@ -7,10 +7,7 @@ export default component$(() => {
     <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 border-radius-dot-25 rounded-lg">
 
       <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/70 dark:bg-gray-900/75 border-radius-dot-25">
-      <HeroCarousel/>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-10 ">
- 
-
           <div class="pt-0 md:pt-[60px] pointer-events-none"></div>
           <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
@@ -24,7 +21,7 @@ export default component$(() => {
               </h1>
               <div class="max-w-3xl mx-auto lg:max-w-none">
                 <p class="text-xl mb-6 dark:text-slate-300">
-                Transform your online presence with our custom web design and development services. We help business create stunning, fast, and secure websites. </p>
+                Transform your online presence with our design and development services. We help business create stunning, fast, and secure websites. </p>
                 <div class=" sm:max-w-md m-auto grid grid-cols-1 border-radius-dot-25 gap-3 sm:grid-cols-2 lg:grid-cols-2 lg:max-w-7xl">
                   <a href="https://x.com/wienerKRC20">
                     <div class="flex w-full">
@@ -50,7 +47,7 @@ export default component$(() => {
             </div>
 
             <div class="basis-1/2 pb-10">
-        
+         <HeroCarousel/>
             </div>
           </div>
         </div>
