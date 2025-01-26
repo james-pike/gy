@@ -7,7 +7,10 @@ export default component$(() => {
     <div class="relative bg-white/80 dark:bg-gray-900/80 overflow-hidden flex items-center justify-center mx-1.5 mt-1 mb-2 border-radius-dot-25 rounded-lg">
 
       <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/70 dark:bg-gray-900/75 border-radius-dot-25">
+      <HeroCarousel/>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-10 ">
+ 
+
           <div class="pt-0 md:pt-[60px] pointer-events-none"></div>
           <div class="pt-6 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
@@ -41,30 +44,13 @@ export default component$(() => {
 
                     </div>
                   </a>
-                  {/* <a href="/images/WIENER-WHITEPAPER.pdf" download="WIENER-WHITEPAPER.pdf">
-                    <div class="flex w-full">
-
-                      <button class="btn w-full bg-primary-100 dark:bg-primary-500 py-2 rounded-md ">
-                        Whitepaper
-                      </button>
-
-                    </div>
-                  </a>
-                  <a href="https://kas.fyi/token/krc20/WIENER">
-                    <div class="flex w-full">
-
-                      <button class="btn w-full bg-primary-400 py-2 rounded-md ">
-                        Buy $GHSTLY
-                      </button>
-
-                    </div>
-                  </a> */}
+            
                 </div>
               </div>
             </div>
 
             <div class="basis-1/2 pb-10">
-         <HeroCarousel/>
+        
             </div>
           </div>
         </div>
