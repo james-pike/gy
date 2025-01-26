@@ -8,7 +8,7 @@ export default component$(() => {
         <img class="rounded-lg" src="/images/hero.jpg" width="790" height="790" alt="..." />
       </Carousel.Slide>
       <Carousel.Slide>
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" width="790" height="790" alt="..." />
+        <img class="rounded-lg" src="/images/hero2.jpg" width="790" height="790" alt="..." />
       </Carousel.Slide>
       <Carousel.Slide>
         <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" width="790" height="790" alt="..." />
