@@ -5,7 +5,7 @@ export default component$(() => {
   return (
     <Carousel noControls>
       <Carousel.Slide>
-        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" width="790" height="790" alt="..." />
+        <img class="rounded-lg" src="/images/hero1.avif" width="790" height="790" alt="..." />
       </Carousel.Slide>
       <Carousel.Slide>
         <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" width="790" height="790" alt="..." />
