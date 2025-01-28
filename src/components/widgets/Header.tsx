@@ -37,9 +37,11 @@ export default component$(() => {
       <div class="absolute inset-0 bg-white/90 dark:bg-gray-900/90"></div>
       <div class="relative text-default py-2.5 px-2.5 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
+
           <a class="flex items-center" href={"/"}>
-          {/* <img class="rounded-full" src="/images/GHSTLY.jpg" height={50} width={50}></img> */}
-          <span class="self-center ml-1 sm:ml-2 text-3xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
+          <svg width="35px" height="35px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Desktop25"></g> <g id="Desktop24"></g> <g id="Desktop23"></g> <g id="Desktop22"></g> <g id="Desktop21"></g> <g id="Desktop20"></g> <g id="Desktop19"></g> <g id="Desktop18"></g> <g id="Desktop17"></g> <g id="Desktop16"></g> <g id="Desktop15"></g> <g id="Desktop14"></g> <g id="Desktop13"></g> <g id="Desktop12"></g> <g id="Desktop11"></g> <g id="Desktop10"></g> <g id="Desktop09"></g> <g id="Desktop08"></g> <g id="Desktop07"></g> <g id="Desktop06"></g> <g id="Desktop05"></g> <g id="Desktop04"></g> <g id="Desktop03"></g> <g id="Desktop02"></g> <g id="Desktop01"> <g> <path d="M31,6v16c0,1.65-1.35,3-3,3H4c-1.65,0-3-1.35-3-3V6c0-1.65,1.35-3,3-3h24C29.65,3,31,4.35,31,6z" fill="#2197F3"></path> </g> <path d="M21,27h-4v-3c0-0.5522-0.4478-1-1-1s-1,0.4478-1,1v3h-4c-0.5522,0-1,0.4478-1,1s0.4478,1,1,1h10 c0.5522,0,1-0.4478,1-1S21.5522,27,21,27z" fill="#FFC10A"></path> <g> <path d="M31,17v5c0,1.65-1.35,3-3,3H4c-1.65,0-3-1.35-3-3v-5H31z" fill="#3F51B5"></path> </g> </g> </g></svg>        
+
+            <span class="self-center ml-1 sm:ml-2 text-2xl md:text-2xl font-bold text-primary hover:text-primary-300 whitespace-nowrap flex items-center">
   
   Webdev.ca
 </span>
