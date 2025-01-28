@@ -6,7 +6,6 @@ import { useContent } from "@builder.io/qwik-city";
 import ToggleTheme from "../common/ToggleTheme";
 import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
-import IconPhone from "../icons/IconPhone";
 import IconMail from "../icons/IconMail";
 
 export default component$(() => {
