@@ -2,21 +2,12 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import Hero from "~/components/widgets/Hero";
 import { SITE } from "~/config.mjs";
-import RoadmapHome from "~/components/pages/RoadmapHome";
-import StoryHome from "~/components/pages/StoryHome";
 import Contact from "~/components/pages/Contact";
-import TokenomicsHome from "~/components/pages/TokenomicsHome";
 
 export default component$(() => {
   return (
     <>
-    
       <Hero />
-    
-     <StoryHome/>
-     <RoadmapHome/>
-     <TokenomicsHome/>
-
 <Contact/>
 <div class="h-2"></div>
 
