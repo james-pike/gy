@@ -6,6 +6,8 @@ import { useContent } from "@builder.io/qwik-city";
 import ToggleTheme from "../common/ToggleTheme";
 import IconTelegram from "../icons/IconTelegram";
 import IconTwitter from "../icons/IconTwitter";
+import IconPhone from "../icons/IconPhone";
+import IconMail from "../icons/IconMail";
 
 export default component$(() => {
   
@@ -50,7 +52,7 @@ export default component$(() => {
                         title={"Telegram"}
                         href={"https://t.me/+Civ_RQYiZH03Y2I5"}
                       >
-                        <IconTelegram />
+                        <IconMail />
                       </a>
           <a
                         class="text-gray-500 dark:text-gray-400 hover:bg-primary hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
@@ -58,7 +60,7 @@ export default component$(() => {
                         title={"Telegram"}
                         href={"https://x.com/wienerKRC20"}
                       >
-                        <IconTwitter />
+                        <IconPhone />
                       </a>
             <ToggleMenu />
           </div>
@@ -126,7 +128,7 @@ export default component$(() => {
                 href="https://kas.fyi/token/krc20/WIENER"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
-                Buy $GHSTLY
+                Book A Consultation
               </a>
             </span>
           </div>
