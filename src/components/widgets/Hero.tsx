@@ -9,7 +9,7 @@ export default component$(() => {
       <section class="relative rounded-lg  md:-mt-[76px] not-prose mx-1.5 my-1.5 bg-white/70 dark:bg-gray-900/75 border-radius-dot-25">
         <div class="relative max-w-7xl mx-auto px-4 sm:px-10 ">
           <div class="pt-0 md:pt-[60px] pointer-events-none"></div>
-          <div class="pt-4 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+          <div class="pt-5 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
             <div class="basis-1/2 text-center lg:text-left pb-8 md:pb-16 mx-auto">
               <a href="https://kas.fyi/token/krc20/WIENER" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-4 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
                 <span class="text-xs bg-primary-400 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Free Website & SEO Audit!</span>
